@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.room {
+  height: 100vh;
+  width: 100vh;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.product-info {
+  float: right;
+  width: 328px;
+}
+
+.product-type {
+  height: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.products {
+  padding: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+.product-thumbnail {
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  margin: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+}
+
+.active {
+  border: 2px solid pink;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.product-thumbnail-image {
+  height: 80px;
+  width: 50%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.product-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-price {
+  height: 28px;
+  line-height: 28px;
+}
+
+.product-details-link {
+  width: 100%;
+  background: pink;
+  height: 28px;
+  line-height: 28px;
+}
+
+.product-details-link:hover {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
